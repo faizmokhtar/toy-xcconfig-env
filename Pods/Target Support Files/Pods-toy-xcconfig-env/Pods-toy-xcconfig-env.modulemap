@@ -1,0 +1,6 @@
+framework module Pods_toy_xcconfig_env {
+  umbrella header "Pods-toy-xcconfig-env-umbrella.h"
+
+  export *
+  module * { export * }
+}

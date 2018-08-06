@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62AF8554438AEF747A41A676 /* Pods_toy_xcconfig_envTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E5B920B96FFF3F38C7D9AC /* Pods_toy_xcconfig_envTests.framework */; };
 		981542E721182E5D0062E179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981542E621182E5D0062E179 /* AppDelegate.swift */; };
 		981542E921182E5D0062E179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981542E821182E5D0062E179 /* ViewController.swift */; };
 		981542EC21182E5D0062E179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981542EA21182E5D0062E179 /* Main.storyboard */; };
 		981542EE21182E5F0062E179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981542ED21182E5F0062E179 /* Assets.xcassets */; };
 		981542F121182E5F0062E179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981542EF21182E5F0062E179 /* LaunchScreen.storyboard */; };
 		981542FC21182E5F0062E179 /* toy_xcconfig_envTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981542FB21182E5F0062E179 /* toy_xcconfig_envTests.swift */; };
+		B2F00106C1A36477A42AB024 /* Pods_toy_xcconfig_env.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A324356546E1BE32BB587AB6 /* Pods_toy_xcconfig_env.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		9815430B21182FB90062E179 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		9815430C21182FC70062E179 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		9815430D21182FD40062E179 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		A324356546E1BE32BB587AB6 /* Pods_toy_xcconfig_env.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toy_xcconfig_env.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E5B920B96FFF3F38C7D9AC /* Pods_toy_xcconfig_envTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toy_xcconfig_envTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F00106C1A36477A42AB024 /* Pods_toy_xcconfig_env.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,18 +58,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AF8554438AEF747A41A676 /* Pods_toy_xcconfig_envTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401233397E4176461173D718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A324356546E1BE32BB587AB6 /* Pods_toy_xcconfig_env.framework */,
+				F5E5B920B96FFF3F38C7D9AC /* Pods_toy_xcconfig_envTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		981542DA21182E5D0062E179 = {
 			isa = PBXGroup;
 			children = (
 				981542E521182E5D0062E179 /* toy-xcconfig-env */,
 				981542FA21182E5F0062E179 /* toy-xcconfig-envTests */,
 				981542E421182E5D0062E179 /* Products */,
+				CE7E5EB5549AC0D9D1001784 /* Pods */,
+				401233397E4176461173D718 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +159,13 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
+		CE7E5EB5549AC0D9D1001784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9815430021182E5F0062E179 /* Build configuration list for PBXNativeTarget "toy-xcconfig-env" */;
 			buildPhases = (
+				212933EC603B5F29A9B81E74 /* [CP] Check Pods Manifest.lock */,
 				981542DF21182E5D0062E179 /* Sources */,
 				981542E021182E5D0062E179 /* Frameworks */,
 				981542E121182E5D0062E179 /* Resources */,
@@ -166,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9815430321182E5F0062E179 /* Build configuration list for PBXNativeTarget "toy-xcconfig-envTests" */;
 			buildPhases = (
+				48E9B12E4F8339FA3B0B3808 /* [CP] Check Pods Manifest.lock */,
 				981542F321182E5F0062E179 /* Sources */,
 				981542F421182E5F0062E179 /* Frameworks */,
 				981542F521182E5F0062E179 /* Resources */,
@@ -237,6 +263,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		212933EC603B5F29A9B81E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toy-xcconfig-env-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E9B12E4F8339FA3B0B3808 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toy-xcconfig-envTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		981542DF21182E5D0062E179 /* Sources */ = {
@@ -409,7 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ZJY6AYCD;
-				INFOPLIST_FILE = "toy-xcconfig-env/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/toy-xcconfig-env/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,7 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ZJY6AYCD;
-				INFOPLIST_FILE = "toy-xcconfig-env/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/toy-xcconfig-env/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +529,7 @@
 		};
 		9815430521182E5F0062E179 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9815430D21182FD40062E179 /* Release.xcconfig */;
+			baseConfigurationReference = 9815430C21182FC70062E179 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -552,7 +617,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96ZJY6AYCD;
-				INFOPLIST_FILE = "toy-xcconfig-env/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/toy-xcconfig-env/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,7 +631,7 @@
 		};
 		981543102118301B0062E179 /* Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9815430B21182FB90062E179 /* Development.xcconfig */;
+			baseConfigurationReference = 9815430C21182FC70062E179 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
